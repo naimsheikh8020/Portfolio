@@ -17,7 +17,7 @@ const AboutMe = () => {
       {/* section content */}
       <div className="flex flex-col lg:flex-row gap-10 md:gap-14 items-center ">
         {/* image part  */}
-        <div className="w-[50%] md:w-[40%]   relative rounded-2xl border-glow2 ">
+        <div className="w-[70%] sm:w-[50%] md:w-[40%] lg:w-[35%] relative rounded-2xl border-glow2 ">
           <img
             src={portrait}
             alt=""
@@ -59,7 +59,7 @@ const AboutMe = () => {
             </p>
           </div>
           {/* specification  */}
-          <div className="flex md:w-[80%] justify-between  pb-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:w-[80%] pb-5">
             <div className="space-y-5">
               <Specification tittle={"Name"} subTittle={"Md. Naim Sheikh"} />
               <Specification
@@ -79,7 +79,7 @@ const AboutMe = () => {
             </div>
           </div>
           {/* CTA buttons  */}
-          <div className="flex gap-5 py-5">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 py-5">
             <Link to="contact-me" className="glow-button btn">
               Lets Connect
             </Link>
