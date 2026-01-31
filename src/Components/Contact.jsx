@@ -6,8 +6,8 @@ import { MdEmail, MdLocationOn } from 'react-icons/md';
 import { FaGithub, FaLinkedin, FaPhone, FaSquareFacebook, FaX } from 'react-icons/fa6';
 
 const contactDetails = [
-    { icon: <MdEmail />, tittle: "Email", subTittle: "hasibul277127@gmail.com" },
-    { icon: <FaPhone />, tittle: "Phone", subTittle: "+8801791669909" },
+    { icon: <MdEmail />, tittle: "Email", subTittle: "naimsheikh8020@gmail.com" },
+    { icon: <FaPhone />, tittle: "Phone", subTittle: "+8801303202218" },
     { icon: <MdLocationOn />, tittle: "Location", subTittle: "Dhaka,Bangladesh" },
 ]
 const socialStyle = 'hover:text-primary transition-all ease-in-out duration-300 rounded-full bg-slate-700 p-3'
@@ -18,8 +18,8 @@ const Contact = () => {
         e.preventDefault();
 
 
-        emailjs.sendForm('service_442k6r3', 'template_11ciokw', form.current, {
-            publicKey: '81H-paFwAEGNQSEKu',
+        emailjs.sendForm('service_v1hscdh', 'template_d7lxyui', form.current, {
+            publicKey: 'NvSYvvAEj_MdTulos',
         })
             .then(
                 () => {
@@ -64,10 +64,9 @@ const Contact = () => {
                                     <h4 className='  text-white font-semibold'>Connect with me</h4>
                                     {/* social icons  */}
                                     <div className='flex gap-6'>
-                                        <a className={socialStyle} target='_blank' href="https://github.com/MHShiqder"><FaGithub /></a>
-                                        <a className={socialStyle} target='_blank' href="https://www.linkedin.com/in/hasibulhasanmec/"><FaLinkedin /></a>
-                                        <a className={socialStyle} target='_blank' href="https://x.com/HASIBUL83782278"><FaX /></a>
-                                        <a className={socialStyle} target='_blank' href="https://www.facebook.com/hasibulhasan.plabon.5/"><FaSquareFacebook /></a>
+                                        <a className={socialStyle} target='_blank' href="https://github.com/naimsheikh8020"><FaGithub /></a>
+                                        <a className={socialStyle} target='_blank' href="https://www.linkedin.com/in/sheikh-naim/"><FaLinkedin /></a>
+                                        <a className={socialStyle} target='_blank' href="https://www.facebook.com/sheikh.naim.133372/"><FaSquareFacebook /></a>
 
                                     </div>
                                 </div>
