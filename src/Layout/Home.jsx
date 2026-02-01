@@ -5,6 +5,7 @@ import Skill from '../Components/Skill';
 import Contact from '../Components/Contact';
 import Projects from '../Components/Projects';
 import { Helmet } from 'react-helmet-async';
+import Exprience from '../Components/Exprience';
 
 
 
@@ -25,7 +26,8 @@ const Home = () => {
             <Skill></Skill>
             
             <Projects></Projects>
-
+             {/* Exprience */}
+             <Exprience/>
             <Contact></Contact>
         </div>
     );
