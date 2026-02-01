@@ -107,7 +107,7 @@ const Header = () => {
                 <div className="navbar justify-between px-0">
                     <div className="navbar-start w-auto px-0">
 
-                        <a className="pr-4 py-2 rounded-sm text-white text-lg font-bold hover:bg-gradient-to-r from-primary  to-secondary hover:text-transparent hover:bg-clip-text" href='https://wa.me/8801791669909?text=Hi%20there%2C%20I%27m%20interested%20in%20working%20with%20you!' target="_blank"><span className="text-primary text-xl">{"<"}</span> Hire Me <span className="text-secondary text-xl">{"/>"}</span></a>
+                        <a className="pr-4 py-2 rounded-sm text-white text-lg font-bold hover:bg-gradient-to-r from-primary  to-secondary hover:text-transparent hover:bg-clip-text" href='https://wa.me/8801303202218?text=Hi%20there%2C%20I%27m%20interested%20in%20working%20with%20you!' target="_blank"><span className="text-primary text-xl">{"<"}</span> Hire Me <span className="text-secondary text-xl">{"/>"}</span></a>
 
 
                     </div>
