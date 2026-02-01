@@ -36,7 +36,51 @@ const projectItems = [
         details: "/library",
         live: 'https://jolly-salmiakki-820fae.netlify.app/'
     },
-    
+    {
+        photo: scholarease,
+        tittle: "ScholarEase",
+        type: "An online Scholarship management system",
+        subTittle: "An online library management system An online library management system",
+        techStack: ["React", "Node.js","Express.js"],
+        details: "/library",
+        live: 'https://scholarease1.netlify.app/'
+    },
+    {
+        photo: brainiacs,
+        tittle: "Brainiacs",
+        type: "An complete team collaboration tool",
+        subTittle: "An online library management system An online library management system",
+        techStack: ["React", "Node.js"],
+        details: "/library",
+        live: 'https://brainiacs1.netlify.app/'
+    },
+    {
+        photo: library,
+        tittle: "E-Library",
+        type: "An online library management system",
+        subTittle: "An online library management system An online library management system",
+        techStack: ["React", "Node.js"],
+        details: "/library",
+        live: 'https://jolly-salmiakki-820fae.netlify.app/'
+    },
+    {
+        photo: visa,
+        tittle: "Visa Application",
+        type: "An online visa application system",
+        subTittle: "An online visa application system An online visa application system",
+        techStack: ["React", "Node.js"],
+        details: "/visa",
+        live: 'https://visa-application.netlify.app/'
+    },
+    {
+        photo: lingobingo,
+        tittle: "LingoBingo",
+        type: "An online language learning game",
+        subTittle: "An online language learning game An online language learning game",
+        techStack: ["React", "Node.js"],
+        details: "/lingobingo",
+        live: 'https://lingobingo.netlify.app/'
+    }
 ]
 
 const Projects = () => {
