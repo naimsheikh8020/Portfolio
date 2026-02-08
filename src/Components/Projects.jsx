@@ -1,86 +1,51 @@
 import SectionTittle from './shared/SectionTittle';
-import library from "../assets/library.webp"
-import scholarease from "../assets/scholarease.webp"
-import brainiacs from "../assets/brainiacs.webp"
-import visa from "../assets/visa.png"
+import library from "../assets/adportal .png"
+import scholarease from "../assets/cleanup-software.png"
+import brainiacs from "../assets/ielts-reverse.png"
+import visa from "../assets/jobportal.png"
 import lingobingo from "../assets/lingobingo.png"
 // import portfolio from "../assets/portfolio.png"
 import { Link } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 
 const projectItems = [
+   
     {
         photo: scholarease,
-        tittle: "ScholarEase",
-        type: "An online Scholarship management system",
-        subTittle: "An online library management system An online library management system",
-        techStack: ["React", "Node.js","Express.js"],
+        tittle: "Cleanup Software",
+        type: "Employee management system",
+        subTittle: "A modern, scalable Admin Dashboard built with React, TypeScript, Redux Toolkit, ShadCN UI, and React Router, featuring secure multi-role access (Client, Admin, User), reusable UI components, and clean code architecture.",
+        techStack: ["React", "Python","Django"],
         details: "/library",
-        live: 'https://scholarease1.netlify.app/'
+        live: 'https://snazzy-creponne-c1ee7d.netlify.app/'
     },
     {
         photo: brainiacs,
-        tittle: "Brainiacs",
-        type: "An complete team collaboration tool",
-        subTittle: "An online library management system An online library management system",
-        techStack: ["React", "Node.js"],
-        details: "/library",
-        live: 'https://brainiacs1.netlify.app/'
+        tittle: "IELTS Reverse",
+        type: "An online IELTS preparation platform",
+        subTittle: "An online IELTS preparation platform An online IELTS preparation platform.",
+        techStack: ["React", "Tailwind CSS"],
+        details: "https://github.com/naimsheikh8020/IELTS-Revise",
+        live: 'https://ielts-naim.netlify.app/'
     },
     {
         photo: library,
-        tittle: "E-Library",
-        type: "An online library management system",
-        subTittle: "An online library management system An online library management system",
-        techStack: ["React", "Node.js"],
-        details: "/library",
-        live: 'https://jolly-salmiakki-820fae.netlify.app/'
-    },
-    {
-        photo: scholarease,
-        tittle: "ScholarEase",
-        type: "An online Scholarship management system",
-        subTittle: "An online library management system An online library management system",
-        techStack: ["React", "Node.js","Express.js"],
-        details: "/library",
-        live: 'https://scholarease1.netlify.app/'
-    },
-    {
-        photo: brainiacs,
-        tittle: "Brainiacs",
-        type: "An complete team collaboration tool",
-        subTittle: "An online library management system An online library management system",
-        techStack: ["React", "Node.js"],
-        details: "/library",
-        live: 'https://brainiacs1.netlify.app/'
-    },
-    {
-        photo: library,
-        tittle: "E-Library",
-        type: "An online library management system",
-        subTittle: "An online library management system An online library management system",
-        techStack: ["React", "Node.js"],
-        details: "/library",
-        live: 'https://jolly-salmiakki-820fae.netlify.app/'
+        tittle: "Ad Protal",
+        type: "A platform that creates ads for businesses",
+        subTittle: "A platform that creates ads for businesses A platform that creates ads for businesses",
+        techStack: ["React", "Tailwind CSS"],
+        details: "https://github.com/naimsheikh8020/Ad-Protal",
+        live: 'https://ad-protal.vercel.app/'
     },
     {
         photo: visa,
-        tittle: "Visa Application",
-        type: "An online visa application system",
-        subTittle: "An online visa application system An online visa application system",
-        techStack: ["React", "Node.js"],
-        details: "/visa",
-        live: 'https://visa-application.netlify.app/'
+        tittle: "Job Portal",
+        type: "An online job application system",
+        subTittle: "An online job application system An online job application system",
+        techStack: ["React", "Tailwind CSS"],
+        details: "https://github.com/naimsheikh8020/Job-Protal",
+        live: 'https://jobprotal007.netlify.app/'
     },
-    {
-        photo: lingobingo,
-        tittle: "LingoBingo",
-        type: "An online language learning game",
-        subTittle: "An online language learning game An online language learning game",
-        techStack: ["React", "Node.js"],
-        details: "/lingobingo",
-        live: 'https://lingobingo.netlify.app/'
-    }
 ]
 
 const Projects = () => {
@@ -132,7 +97,7 @@ const Projects = () => {
                                         Live Project
                                     </button></Link>
                                     <Link to={item.details}><button className='px-4 py-2 rounded-full bg-transparent border hover:bg-gray-50 text-gray-50 hover:text-gray-950'>
-                                        Details
+                                        github
                                     </button></Link>
                                 </div>
                             </div>
