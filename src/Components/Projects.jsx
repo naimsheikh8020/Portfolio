@@ -17,7 +17,7 @@ const projectItems = [
         subTittle: "A modern, scalable Admin Dashboard built with React, TypeScript, Redux Toolkit, ShadCN UI, and React Router, featuring secure multi-role access (Client, Admin, User), reusable UI components, and clean code architecture.",
         techStack: ["React", "Python","Django"],
         details: "/library",
-        live: 'https://snazzy-creponne-c1ee7d.netlify.app/'
+        live: 'https://cleanuppro-naim.netlify.app/'
     },
     {
         photo: brainiacs,
